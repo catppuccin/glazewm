@@ -1,0 +1,61 @@
+bar:
+  height: "30px"
+  position: "top"
+  opacity: 1.0
+  background: "#232634" # catppuccin crust
+  foreground: "#ca9ee6" # catppuccin mauve
+  font_family: "Segoe UI"
+  font_size: "13px"
+  padding: "4px 6px"
+  offset_x: "0"
+  offset_y: "0"
+  border_radius: "0"
+
+  components_left:
+    - type: "workspaces"
+      # current active workspace
+      focused_workspace_background: "#ca9ee6" # catppuccin mauve
+      focused_workspace_foreground: "#232634" # catppuccin crust
+      # inactive, but displayed on other monitor workspace
+      displayed_workspace_background: "#414559" # catppuccin surface0
+      # inactive workspace
+      default_workspace_background: "transparent"
+
+  components_center:
+    # - type: "window title" # default component
+
+    - type: "clock"
+      # background: "#414559" # catppuccin surface0
+      foreground: "#a6d189" # catppuccin green
+      padding: "0 8px"
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "ddd, MMM d"
+
+    - type: "clock"
+      # background: "#414559" # catppuccin surface0
+      foreground: "#a6d189" # catppuccin green
+      padding: "0 8px"
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "HH:mm tt"
+
+  components_right:
+    - type: "binding mode"
+      background: "#ea999c" # catppuccin red
+      foreground: "#232634" # catppuccin crust
+      padding: "0 8px"
+      margin: "0 4 0 0px"
+
+    - type: "tiling direction"
+      background: "#414559" # catppuccin surface0
+      foreground: "#8caaee" # catppuccin blue
+      padding: "0 8px"
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
+
+    - type: "battery"
+      # background: "#414559" # catppuccin surface0
+      foreground: "#e5c890" # catppuccin yellow
+      padding: "0 10px"
+      label_draining: "{battery_level}% remaining"
+      label_power_saver: "{battery_level}% (power saver)"
+      label_charging: "{battery_level}% (charging)"
