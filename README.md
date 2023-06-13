@@ -40,8 +40,9 @@ Here is an example
 1. Open GlazeWM config file  
 `C:\Users\yourusername\.glaze-wm\config.yaml`
 1. Add or replace `bar: section`
-1. Save and reload GlazeWM `alt+shift+r`
-1. Enjoy your new bar!
+1. Save and reload GlazeWM  
+`alt+shift+r` or exit from system tray, bottom right corner
+3. Enjoy your new bar!
 
 <!-- this section is optional -->
 ## 🙋 FAQ
