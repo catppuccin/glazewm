@@ -40,7 +40,7 @@ bar:
 
   components_right:
     - type: "binding mode"
-      background: "#ea999c" # catppuccin red
+      background: "#ea999c" # catppuccin maroon
       foreground: "#232634" # catppuccin crust
       padding: "0 8px"
       margin: "0 4 0 0px"
