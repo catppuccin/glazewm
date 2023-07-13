@@ -1,60 +1,26 @@
-bar:
-  height: "30px"
-  position: "top"
-  opacity: 1.0
-  background: "#dce0e8" # catppuccin base
-  foreground: "#8839ef" # catppuccin mauve
-  font_family: "Segoe UI"
-  font_size: "13px"
-  padding: "4px 6px"
-  offset_x: "0"
-  offset_y: "0"
-  border_radius: "0"
-
-  components_left:
-    - type: "workspaces"
-      # current active workspace
-      focused_workspace_background: "#8839ef" # catppuccin mauve
-      focused_workspace_foreground: "#dce0e8" # catppuccin crust
-      # inactive, but displayed on other monitor workspace
-      displayed_workspace_background: "#ccd0da" # catppuccin surface0
-      # inactive workspace
-      default_workspace_background: "transparent"
-
-  components_center:
-    # - type: "window title" # default component
-
-    - type: "clock"
-      foreground: "#40a02b" # catppuccin green
-      font_weight: "400"
-      padding: "0 8px"
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "ddd, MMM d"
-
-    - type: "clock"
-      foreground: "#40a02b" # catppuccin green
-      font_weight: "400"
-      padding: "0 8px"
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "HH:mm tt"
-
-  components_right:
-    - type: "binding mode"
-      background: "#e64553" # catppuccin maroon
-      foreground: "#dce0e8" # catppuccin base
-      padding: "0 8px"
-      margin: "0 4 0 0px"
-
-    - type: "tiling direction"
-      background: "#ccd0da" # catppuccin surface0
-      foreground: "#1e66f5" # catppuccin blue
-      padding: "0 8px"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-
-    - type: "battery"
-      foreground: "#df8e1d" # catppuccin yellow
-      padding: "0 10px"
-      label_draining: "{battery_level}% remaining"
-      label_power_saver: "{battery_level}% (power saver)"
-      label_charging: "{battery_level}% (charging)"
+&rosewater "#dc8a78"
+&flamingo "#dd7878"
+&pink "#ea76cb"
+&mauve "#8839ef"
+&red "#d20f39"
+&maroon "#e64553"
+&peach "#fe640b"
+&yellow "#df8e1d"
+&green "#40a02b"
+&teal "#179299"
+&sky "#04a5e5"
+&sapphire "#209fb5"
+&blue "#1e66f5"
+&lavender "#7287fd"
+&text "#4c4f69"
+&subtext1 "#5c5f77"
+&subtext0 "#6c6f85"
+&overlay2 "#7c7f93"
+&overlay1 "#8c8fa1"
+&overlay0 "#9ca0b0"
+&surface2 "#acb0be"
+&surface1 "#bcc0cc"
+&surface0 "#ccd0da"
+&base "#eff1f5"
+&mantle "#e6e9ef"
+&crust "#dce0e8"

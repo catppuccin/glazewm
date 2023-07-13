@@ -1,61 +1,26 @@
-bar:
-  height: "30px"
-  position: "top"
-  opacity: 1.0
-  background: "#11111b" # catppuccin crust
-  foreground: "#cba6f7" # catppuccin mauve
-  font_family: "Segoe UI"
-  font_size: "13px"
-  padding: "4px 6px"
-  offset_x: "0"
-  offset_y: "0"
-  border_radius: "0"
-
-  components_left:
-    - type: "workspaces"
-      # current active workspace
-      focused_workspace_background: "#cba6f7" # catppuccin mauve
-      focused_workspace_foreground: "#11111b" # catppuccin crust
-      # inactive, but displayed on other monitor workspace
-      displayed_workspace_background: "#313244" # catppuccin surface0
-      # inactive workspace
-      default_workspace_background: "transparent"
-
-  components_center:
-    # - type: "window title" # default component
-
-    - type: "clock"
-      # background: "#313244" # catppuccin surface0
-      foreground: "#a6e396" # catppuccin green
-      padding: "0 8px"
-      # https://learn.microsoft.com/en-us/dotnet/standard/auvebase-types/custom-date-and-time-format-strings
-      time_formatting: "ddd, MMM d"
-
-    - type: "clock"
-      # background: "#313244" # catppuccin surface0
-      foreground: "#a6e396" # catppuccin green
-      padding: "0 8px"
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "HH:mm tt"
-
-  components_right:
-    - type: "binding mode"
-      background: "#f38ba8" # catppuccin red
-      foreground: "##11111b" # catppuccin crust
-      padding: "0 8px"
-      margin: "0 4 0 0px"
-
-    - type: "tiling direction"
-      background: "#313244" # catppuccin surface0
-      foreground: "#89b4fa" # catppuccin blue
-      padding: "0 8px"
-      label_horizontal: "⮂"
-      label_vertical: "⮁"
-
-    - type: "battery"
-      # background: "#313244" # catppuccin surface0
-      foreground: "#f9e2af" # catppuccin yellow
-      padding: "0 10px"
-      label_draining: "{battery_level}% remaining"
-      label_power_saver: "{battery_level}% (power saver)"
-      label_charging: "{battery_level}% (charging)"
+&rosewater "#f5e0dc"
+&flamingo "#f2cdcd"
+&pink "#f5c2e7"
+&mauve "#cba6f7"
+&red "#f38ba8"
+&maroon "#eba0ac"
+&peach "#fab387"
+&yellow "#f9e2af"
+&green "#a6e3a1"
+&teal "#94e2d5"
+&sky "#89dceb"
+&sapphire "#74c7ec"
+&blue "#89b4fa"
+&lavender "#b4befe"
+&text "#cdd6f4"
+&subtext1 "#bac2de"
+&subtext0 "#a6adc8"
+&overlay2 "#9399b2"
+&overlay1 "#7f849c"
+&overlay0 "#6c7086"
+&surface2 "#585b70"
+&surface1 "#45475a"
+&surface0 "#313244"
+&base "#1e1e2e"
+&mantle "#181825"
+&crust "#11111b"

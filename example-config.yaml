@@ -1,0 +1,94 @@
+# available colors
+# rosewater
+# flamingo
+# pink
+# mauve
+# red
+# maroon
+# peach
+# yellow
+# green
+# teal
+# sky
+# sapphire
+# blue
+# lavender
+# text
+# subtext1
+# subtext0
+# overlay2
+# overlay1
+# overlay0
+# surface2
+# surface1
+# surface0
+# base
+# mantle
+# crust
+
+import:
+  ./mocha.yaml
+  # macchiato.yaml
+  # frappe.yaml
+  # latte.yaml
+bar:
+  height: "30px"
+  position: "top"
+  opacity: 1.0
+  background: *crust
+  foreground: *mauve
+  font_family: "Segoe UI"
+  font_size: "13px"
+  padding: "4px 6px"
+  offset_x: "0"
+  offset_y: "0"
+  border_radius: "0"
+
+  components_left:
+    - type: "workspaces"
+      # current active workspace
+      focused_workspace_background: *mauve
+      focused_workspace_foreground: *crust
+      # inactive, but displayed on other monitor workspace
+      displayed_workspace_background: *surface0
+      # inactive workspace
+      default_workspace_background: "transparent"
+
+  components_center:
+    # - type: "window title" # default component
+
+    - type: "clock"
+      # background: *surface0
+      foreground: *green
+      padding: "0 8px"
+      # https://learn.microsoft.com/en-us/dotnet/standard/auvebase-types/custom-date-and-time-format-strings
+      time_formatting: "ddd, MMM d"
+
+    - type: "clock"
+      # background: *surface0
+      foreground: *green
+      padding: "0 8px"
+      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+      time_formatting: "HH:mm tt"
+
+  components_right:
+    - type: "binding mode"
+      background: *red
+      foreground: *crust
+      padding: "0 8px"
+      margin: "0 4 0 0px"
+
+    - type: "tiling direction"
+      background: *surface0
+      foreground: *blue
+      padding: "0 8px"
+      label_horizontal: "⮂"
+      label_vertical: "⮁"
+
+    - type: "battery"
+      # background: *surface0
+      foreground: *yellow
+      padding: "0 10px"
+      label_draining: "{battery_level}% remaining"
+      label_power_saver: "{battery_level}% (power saver)"
+      label_charging: "{battery_level}% (charging)"

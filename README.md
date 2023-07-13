@@ -37,17 +37,45 @@
 ## Usage
 Here is an example
 1. Download `mocha.yaml`
-1. Open GlazeWM config file  
-`C:\Users\yourusername\.glaze-wm\config.yaml`
-1. Add or replace `bar: section`
-1. Save and reload GlazeWM  
-`alt+shift+r` or exit from system tray, bottom right corner
-3. Enjoy your new bar!
+2. Place `mocha.yaml` in the same directory level as `config.yaml`
+
+```
+├── C
+└── D
+    └── Users
+        └── myusername
+            └── .glaze-wm
+                └── .glaze-wm
+                    ├── config.yaml
+                    ├── latte.yaml
+                    ├── frappe.yaml
+                    ├── macchiato.yaml
+                    └── mocha.yaml
+```
+
+3. Import the desired flavour in `config.yaml`
+
+```
+import:
+  - ./mocha.yml
+# - ./macchiato.yml
+# - ./frappe.yml
+# - ./latte.yml
+```
+4. Use variables in `config.yaml`
+
+[See example config.yaml](example-config.yaml)
 
 <!-- this section is optional -->
 ## 🙋 FAQ
--	Q: The config is not working  
+-	Q: Config is not working  
 	A: Make sure the indentation is correct. YAML is whitespace-sensitive and the indentation defines the structure.
+- Q: How to use variables in YAML  
+  A: Use `*` symbol 
+  ```
+  background: *crust
+  foreground: *mauve
+  ```
 
 ## 💝 Thanks to
 - [fathulfahmy](https://github.com/fathulfahmy)
