@@ -40,17 +40,15 @@ Here is an example
 2. Place `mocha.yaml` in the same directory level as `config.yaml`
 
 ```
-├── C
-└── D
+└── C
     └── Users
         └── myusername
             └── .glaze-wm
-                └── .glaze-wm
-                    ├── config.yaml
-                    ├── latte.yaml
-                    ├── frappe.yaml
-                    ├── macchiato.yaml
-                    └── mocha.yaml
+                ├── config.yaml
+                ├── latte.yaml
+                ├── frappe.yaml
+                ├── macchiato.yaml
+                └── mocha.yaml
 ```
 
 3. Import the desired flavour in `config.yaml`
