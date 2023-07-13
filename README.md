@@ -66,9 +66,9 @@ import:
 
 <!-- this section is optional -->
 ## 🙋 FAQ
--	Q: Config is not working  
+-	Q: What to do when config does not load or work?
 	A: Make sure the indentation is correct. YAML is whitespace-sensitive and the indentation defines the structure.
-- Q: How to use variables in YAML  
+- Q: How to use color variables?
   A: Use `*` symbol 
   ```
   background: *crust
