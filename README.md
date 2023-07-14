@@ -45,7 +45,8 @@ Here is an example
 background: *crust
 foreground: *mauve
 ```
-
+3. save `config.yaml` and reload GlazeWM `shift+alt+r`
+ 
 [See example config.yaml](example-config.yaml)
 
 <!-- this section is optional -->
