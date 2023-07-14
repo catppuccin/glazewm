@@ -35,47 +35,28 @@
 </details>
 
 ## Usage
+
 Here is an example
-1. Download `mocha.yaml`
-2. Place `mocha.yaml` in the same directory level as `config.yaml`
+
+1. copy `mocha.yaml` to `C:\Users\yourusername\.glaze-wm\config.yaml`
+2. replace hex color code in `bar:` with variables
 
 ```
-└── C
-    └── Users
-        └── myusername
-            └── .glaze-wm
-                ├── config.yaml
-                ├── latte.yaml
-                ├── frappe.yaml
-                ├── macchiato.yaml
-                └── mocha.yaml
+background: *crust
+foreground: *mauve
 ```
-
-3. Import the desired flavour in `config.yaml`
-
-```
-import:
-  - ./mocha.yml
-# - ./macchiato.yml
-# - ./frappe.yml
-# - ./latte.yml
-```
-4. Use variables in `config.yaml`
 
 [See example config.yaml](example-config.yaml)
 
 <!-- this section is optional -->
+
 ## 🙋 FAQ
--	Q: What to do when config does not load or work?
-	A: Make sure the indentation is correct. YAML is whitespace-sensitive and the indentation defines the structure.
-- Q: How to use color variables?
-  A: Use `*` symbol 
-  ```
-  background: *crust
-  foreground: *mauve
-  ```
+
+- Q: What to do when config does not load or work?  
+  A: Make sure the indentation is correct. YAML is whitespace-sensitive and the indentation defines the structure.
 
 ## 💝 Thanks to
+
 - [fathulfahmy](https://github.com/fathulfahmy)
 
 &nbsp;
