@@ -2,4 +2,5 @@ _default:
   @just --list
 
 build:
-  whiskers glazewm.tera
+  whiskers templates/glazewm.tera
+  whiskers templates/example.tera
