@@ -1,7 +1,7 @@
 ---
 whiskers:
   version: "2.3.0"
-  filename: "example-config.yaml"
+  filename: "example.yaml"
 ---
 # mocha.yaml
 {{ read_file(path="../mocha.yaml") }}
