@@ -1,0 +1,11 @@
+---
+whiskers:
+  version: "2.3.0"
+  matrix:
+    - flavor
+  filename: "{{ flavor.identifier }}.yaml"
+---
+
+{%- for _, color in flavor.colors %}
+{{- color.identifier }}: &{{ color.identifier }} "#{{ color.hex }}"
+{% endfor -%}
