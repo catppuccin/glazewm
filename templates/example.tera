@@ -4,7 +4,7 @@ whiskers:
   filename: "example.yaml"
 ---
 # mocha.yaml
-{{ read_file(path="../mocha.yaml") }}
+{{ read_file(path="../themes/mocha.yaml") }}
 bar:
   height: "30px"
   position: "top"

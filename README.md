@@ -12,44 +12,37 @@
 </p>
 
 <p align="center">
-	<img src="/assets/collections.webp"/>
+	<img src="assets/collections.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="/assets/lattebar.webp"/>
+<img src="assets/lattebar.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="/assets/frappebar.webp"/>
+<img src="assets/frappebar.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="/assets/macchiatobar.webp"/>
+<img src="assets/macchiatobar.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="/assets/mochabar.webp"/>
+<img src="assets/mochabar.webp"/>
 </details>
 
 ## Usage
 
-Here is an example
+1. Copy the contents of your flavor of choice from [`themes/`](./themes/) to your [GlazeWM configuration file](https://github.com/glzr-io/glazewm#configuration), located at `C:\Users\<YOUR_USER>\.glaze-wm\config.yaml`.
+2. Then use the Catppuccin color variables in your configuration with `*<color>` (e.g. `*crust` or `*mauve`).
 
-1. copy `mocha.yaml` to `C:\Users\yourusername\.glaze-wm\config.yaml`
-2. replace hex color code in `bar:` with variables
+> [!TIP]
+> See [our example configuration](example.yaml) for more details on how this works!
 
-```
-background: *crust
-foreground: *mauve
-```
-3. save `config.yaml` and reload GlazeWM `shift+alt+r`
- 
-[See example config.yaml](example-config.yaml)
-
-<!-- this section is optional -->
+3. Save your configuration file and reload GlazeWM with <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>r</kbd>.
 
 ## 🙋 FAQ
 
