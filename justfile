@@ -5,5 +5,5 @@ _default:
   @just --list
 
 build:
+  whiskers templates/yaml.tera
   whiskers templates/glazewm.tera
-  whiskers templates/example.tera

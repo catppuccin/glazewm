@@ -36,18 +36,22 @@
 
 ## Usage
 
-1. Copy the contents of your flavor of choice from [`themes/`](./themes/) to your [GlazeWM configuration file](https://github.com/glzr-io/glazewm#configuration), located at `C:\Users\<YOUR_USER>\.glaze-wm\config.yaml`.
-2. Then use the Catppuccin color variables in your configuration with `*<color>` (e.g. `*crust` or `*mauve`).
+1. Copy [Catppuccin YAML][catppuccin-yaml] into [GlazeWM config][glazewm-config].
+2. Use Catppuccin YAML aliases `*ctp-<flavor>-<color>` e.g. `*ctp-mocha-base`.
+3. Save config file and reload GlazeWM.
+4. Import [Catppuccin CSS][catppuccin-css] into [Zebar config][zebar-config].
+5. Use Catppuccin CSS variables `var(--ctp-<flavor>-<color>)` (e.g. `var(--ctp-mocha-mauve)`).
+6. Save config file and reload Zebar.
 
-> [!TIP]
-> See [our example configuration](example.yaml) for more details on how this works!
-
-3. Save your configuration file and reload GlazeWM with <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>r</kbd>.
+> Check out the example [GlazeWM config][glazewm-example] or [Zebar config][zebar-example] to get started quickly!
 
 ## 🙋 FAQ
 
-- Q: What to do when config does not load or work?  
-  A: Make sure the indentation is correct. YAML is whitespace-sensitive and the indentation defines the structure.
+Q: Where are the YAML anchors and aliases defined?  
+A: See [Catppuccin YAML][catppuccin-yaml].
+
+Q: Where are the CSS variables defined?  
+A: See [Catppuccin CSS][catppuccin-css].
 
 ## 💝 Thanks to
 
@@ -66,3 +70,12 @@
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
+
+[catppuccin-yaml]: https://github.com/fathulfahmy/yaml/blob/main/catppuccin.yaml
+[catppuccin-css]:  https://github.com/catppuccin/palette/blob/main/docs/css.md
+
+[glazewm-config]: https://github.com/glzr-io/glazewm#config-documentation
+[glazewm-example]: examples/glazewm.yaml
+
+[zebar-config]: https://github.com/glzr-io/zebar#-getting-started
+[zebar-example]: examples/zebar.css

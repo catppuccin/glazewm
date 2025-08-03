@@ -1,0 +1,11 @@
+---
+whiskers:
+  version: "^2.3.0"
+  filename: "themes/catppuccin.yaml"
+---
+
+{%- for fid, flavor in flavors %}
+  {%- for cid, color in flavor.colors %}
+ctp-{{ fid }}-{{ cid }}: &ctp-{{ fid }}-{{ cid }} "#{{ color.hex }}"
+  {%- endfor %}
+{%- endfor %}
