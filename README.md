@@ -71,11 +71,9 @@ A: See [Catppuccin CSS][catppuccin-css].
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
 
-[catppuccin-yaml]: https://github.com/fathulfahmy/yaml/blob/main/catppuccin.yaml
-[catppuccin-css]:  https://github.com/catppuccin/palette/blob/main/docs/css.md
-
+[catppuccin-yaml]: https://github.com/catppuccin/glazewm/blob/main/themes/catppuccin.yaml
+[catppuccin-css]: https://github.com/catppuccin/palette/blob/main/docs/css.md
 [glazewm-config]: https://github.com/glzr-io/glazewm#config-documentation
 [glazewm-example]: examples/glazewm.yaml
-
 [zebar-config]: https://github.com/glzr-io/zebar#-getting-started
 [zebar-example]: examples/zebar.css
